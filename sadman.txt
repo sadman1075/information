@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+void myfunction(string name,int age){
+cout<<"Name:"<<name<<endl;
+cout<<"Age:"<<age<<endl;}
+void myfunction(string name){
+cout<<"Name:"<<name<<endl;
+
+}
+
+int main(){
+myfunction("sadman",45);
+myfunction("sadman");
+}
